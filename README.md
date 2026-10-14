@@ -28,6 +28,9 @@ The CND certification is a vendor-neutral, blue-team credential focused on netwo
 * **[Module 03: Technical Network Security](./volume-1-fundamentals/module-03-technical-controls.md)** — Access Control Models (DAC, MAC, RBAC, IAM), Cryptography (SHA, HMAC), DMZ Segmentation, and Protocols (S/MIME, PGP, TLS, IPsec)[cite: 5, 6, 14].
 * **[Module 04: Network Perimeter Security](./volume-1-fundamentals/module-04-perimeter-security.md)** — Firewall Evolution (Packet Filtering to NGFW), IDS/IPS (Snort, Suricata, Zeek, Wazuh), Switch Hardening, and Zero Trust SDP[cite: 7, 8, 9, 14].
 
+* **[📊 Volume 1 Visual Architecture Diagrams (Mermaid.js)](./volume-1-fundamentals/visual-diagrams.md)** — Mind maps, DMZ topology, IPsec modes, and Zero Trust SDP sequence flows.
+* **[🧠 Volume 1 Interactive Flashcards & Practice Quiz](./exam-prep/flashcards-and-quizzes.md)** — Click-to-reveal flashcards, scenario questions, and interview prep.
+
 ### Upcoming Modules (Volumes 2–4)
 * **Module 05:** Endpoint Security — Windows Systems[cite: 14]
 * **Module 06:** Endpoint Security — Linux Systems[cite: 14]
