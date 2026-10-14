@@ -1,58 +1,48 @@
 # 🛡️ Certified Network Defender (CND v3) — Class Study Repository
 
-Welcome to the collaborative study guide for the **EC-Council Certified Network Defender (CND v3)** course and **312-38 Certification Exam**[cite: 1, 11, 13]. This repository breaks down core blue-team concepts, network defense architectures, and exam objectives into bite-sized Markdown guides[cite: 1, 11].
+Welcome to the collaborative study guide for the **EC-Council Certified Network Defender (CND v3)** course and **312-38 Certification Exam**[cite: 1, 11, 13]. This repository breaks down core blue-team concepts, network defense architectures, and exam objectives into easy-to-read Markdown guides[cite: 1, 11].
+
+---
+
+## 🚀 Quick-Start Study Links (Volume 1)
+
+All of our Volume 1 materials are live and ready to use:
+
+* 📖 **[Complete Volume 1 Study Notes (Modules 1–4)](./volume-1-fundamentals/volume-1-complete-notes.md)** — Full study guide covering the CND v3 Volume 1 curriculum[cite: 1].
+  * 🔹 [Jump to Module 01: Network Attacks & Defense Fundamentals](./volume-1-fundamentals/volume-1-complete-notes.md#module-01-network-attacks-and-defense-fundamentals) — Extended CIA Triad, Threat Actors, Layer 2/3 Attacks, Adaptive Security, and Defense-in-Depth[cite: 1, 2, 3].
+  * 🔹 [Jump to Module 02: Administrative Network Security & Governance](./volume-1-fundamentals/volume-1-complete-notes.md#module-02-administrative-network-security-and-governance) — Regulatory Compliance, Security Policy Lifecycle, IT Asset Management (ITAM), and Awareness Training[cite: 3, 4].
+  * 🔹 [Jump to Module 03: Technical Network Security Controls & Protocols](./volume-1-fundamentals/volume-1-complete-notes.md#module-03-technical-network-security-controls-and-protocols) — Access Control Models (DAC, MAC, RBAC, IAM), Cryptography (SHA, HMAC), DMZ Segmentation, and Protocols (S/MIME, PGP, TLS, IPsec)[cite: 5, 6].
+  * 🔹 [Jump to Module 04: Network Perimeter Security & Defense Architecture](./volume-1-fundamentals/volume-1-complete-notes.md#module-04-network-perimeter-security-and-defense-architecture) — Firewall Evolution (Packet Filtering to NGFW), IDS/IPS (Snort, Suricata, Zeek, Wazuh), Switch Hardening, and Zero Trust SDP[cite: 7, 8, 9].
+* 📊 **[Volume 1 Visual Architecture Diagrams (Mermaid.js)](./volume-1-fundamentals/visual-diagrams.md)** — Interactive mind maps, DMZ network topology, IPsec modes, and Zero Trust SDP sequence diagrams[cite: 3, 6, 9].
+* 🧠 **[Interactive Flashcards & Practice Quiz](./exam-prep/flashcards-and-quizzes.md)** — Click-to-reveal active recall flashcards, scenario-based exam questions, and blue-team interview prep[cite: 4, 11].
 
 ---
 
 ## 📋 Exam Overview (312-38)
 
-The CND certification is a vendor-neutral, blue-team credential focused on network defense, security controls, and incident response[cite: 11].
+The CND v3 certification is a blue-team network defense credential focused on protecting, detecting, and responding across enterprise networks[cite: 11].
 
 | Exam Detail | Information |
 | :--- | :--- |
-| **Exam Title** | Certified Network Defender (CND)[cite: 11] |
-| **Exam Code** | 312-38[cite: 11, 12, 13] |
-| **Number of Questions** | 100[cite: 11] |
-| **Duration** | 4 Hours[cite: 11] |
-| **Passing Score** | ~70% (varies slightly by region)[cite: 11] |
-| **Question Formats** | Multiple choice, true/false, drag-and-drop, scenario-based[cite: 11] |
-| **Delivery** | EC-Council Exam Center or Proctored Online[cite: 11] |
+| **Exam Title** | Certified Network Defender (CND v3)[cite: 1, 11] |
+| **Exam Code** | 312-38[cite: 12, 13] |
+| **Exam Domains** | 6 Core Domains[cite: 11] |
+| **Typical Prep Time** | 4–8 Weeks[cite: 11] |
+| **Focus Areas** | Network perimeter security, endpoint hardening, incident response, cloud/wireless security, and threat intelligence[cite: 11] |
 
 ---
 
-## 📚 Curriculum & Module Index
+## 🗺️ Full Course Roadmap (Future Modules to Add)
 
-### Volume 1: Network Defense Fundamentals (Complete)
-* **[Module 01: Network Attacks and Defense Strategies](./volume-1-fundamentals/module-01-attacks-and-defense.md)** — Extended CIA Triad, Threat Actors, Layer 2/3 Attacks, Adaptive Security, and Defense-in-Depth[cite: 1, 2, 3, 14].
-* **[Module 02: Administrative Network Security](./volume-1-fundamentals/module-02-administrative-security.md)** — Regulatory Compliance, Security Policy Lifecycle, IT Asset Management (ITAM), and Awareness Training[cite: 3, 4, 14].
-* **[Module 03: Technical Network Security](./volume-1-fundamentals/module-03-technical-controls.md)** — Access Control Models (DAC, MAC, RBAC, IAM), Cryptography (SHA, HMAC), DMZ Segmentation, and Protocols (S/MIME, PGP, TLS, IPsec)[cite: 5, 6, 14].
-* **[Module 04: Network Perimeter Security](./volume-1-fundamentals/module-04-perimeter-security.md)** — Firewall Evolution (Packet Filtering to NGFW), IDS/IPS (Snort, Suricata, Zeek, Wazuh), Switch Hardening, and Zero Trust SDP[cite: 7, 8, 9, 14].
+As our class progresses through the course, we will add notes for the remaining modules below *(no links yet—coming soon!)*:
 
-* **[📊 Volume 1 Visual Architecture Diagrams (Mermaid.js)](./volume-1-fundamentals/visual-diagrams.md)** — Mind maps, DMZ topology, IPsec modes, and Zero Trust SDP sequence flows.
-* **[🧠 Volume 1 Interactive Flashcards & Practice Quiz](./exam-prep/flashcards-and-quizzes.md)** — Click-to-reveal flashcards, scenario questions, and interview prep.
-
-### Upcoming Modules (Volumes 2–4)
-* **Module 05:** Endpoint Security — Windows Systems[cite: 14]
-* **Module 06:** Endpoint Security — Linux Systems[cite: 14]
-* **Module 07:** Endpoint Security — Mobile Devices[cite: 14]
-* **Module 08:** Endpoint Security — IoT Devices (GSMA Guidelines, IoT Standards)[cite: 13, 14]
-* **Module 09:** Administrative Application Security (Defense in Breadth vs. Depth)[cite: 13, 14]
-* **Module 10:** Data Security (Encryption at Rest/Transit, Masking, Backup, DLP, Destruction)[cite: 12, 14]
-* **Module 11:** Enterprise Virtual Network Security (NV, SDN, NFV, Docker, Kubernetes)[cite: 12, 13, 14]
-* **Module 12:** Enterprise Cloud Security (AWS, Azure, GCP, Shared Responsibility Model)[cite: 13, 14]
-* **Module 13:** Enterprise Wireless Network Security[cite: 14]
-* **Module 14:** Network Traffic Monitoring and Analysis (DHCP/DNS Packet Analysis, DNSSEC)[cite: 13, 14]
-* **Module 15:** Network Logs Monitoring and Analysis[cite: 14]
-* **Module 16:** Incident Response and Forensic Investigation[cite: 13, 14]
-* **Module 17:** Business Continuity and Disaster Recovery[cite: 14]
-* **Module 18:** Risk Anticipation with Risk Management[cite: 14]
-* **Module 19:** Threat Assessment with Attack Surface Analysis[cite: 14]
-* **Module 20:** Threat Prediction with Cyber Threat Intelligence (Threat Hunting, AI/ML, SEM, Log360)[cite: 13, 14]
+* **Endpoint & Application Security:** Windows & Linux Hardening (FIM, Tripwire, AIDE, OSSEC, `auditd`, `iptables`, SSH/SFTP), Mobile, IoT (GSMA Guidelines), and Application Security (Defense in Breadth vs. Depth, Sandboxing with Firejail/Sandboxie, WAF)[cite: 12].
+* **Data Security:** Data-at-Rest Encryption (TPM, Disk/File/Database Encryption), Data-in-Transit (SSL/TLS, PKI Certificates), Data Masking, RAID Levels (0, 1, 3, 5, 10, 50), SAN/NAS Backup, and Data Destruction[cite: 12].
+* **Virtual, Cloud & Wireless Security:** Container & Docker Security, Kubernetes Hardening (Namespaces, RBAC), Cloud Security, and Wireless Defense[cite: 11, 12].
+* **Monitoring, Incident Response & Threat Intelligence:** Linux/Mac/Firewall Log Analysis, SOAR Playbooks (Splunk SOAR, ManageEngine Log360), Business Continuity & Disaster Recovery (BIA, RTO, RPO, ISO 22301), Vulnerability Assessments, PIA/DPIA, and AI/ML Threat Hunting[cite: 12, 13].
 
 ---
 
-## 🧠 How to Study with This Repo
-1. **Review the Module Guides:** Read through the core concepts before attempting practice questions[cite: 11].
-2. **Take a Diagnostic Test:** Identify weak domains early (e.g., VPN protocols, firewall rules, or incident response)[cite: 11].
-3. **Simulate Exam Conditions:** Practice answering questions in timed sittings and review explanations for both right and wrong answers[cite: 11].
-4. **Contribute:** Found a great lab tip or mnemonic? Open a Pull Request to add it to the module notes!
+## 🤝 How Classmates Can Contribute
+1. **Spot a typo or want to add lab notes?** Click the pencil icon (`Edit this file`) on any page to suggest an edit.
+2. **Have a tough practice question?** Add it to [`exam-prep/flashcards-and-quizzes.md`](./exam-prep/flashcards-and-quizzes.md) using the `<details>` dropdown format!
