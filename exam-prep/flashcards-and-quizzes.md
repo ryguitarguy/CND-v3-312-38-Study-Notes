@@ -393,3 +393,84 @@ Practicing CND concepts also prepares you for technical interviews in network de
   <li><b>Mitigation:</b> Enable switch-level protections including <b>DHCP Snooping</b>, <b>Dynamic ARP Inspection (DAI)</b>, and <b>Port Security</b>, and enforce strong cryptographic protocols in transit like <b>TLS/HTTPS</b> and <b>IPsec (ESP)</b>[cite: 6, 8].</li>
 </ul>
 </details>
+
+---
+
+## 🪟 Part 4: Module 05 (Windows Endpoint Security) Practice Questions
+
+### Question 1: Windows Core Architecture & Services
+**Which kernel-mode Windows component is primarily responsible for enforcing access validation, object protection, and generating security audit logs?**[cite: 12]
+* A) Local Security Authority Subsystem (LSASS)[cite: 12]
+* B) Security Reference Monitor (SRM)[cite: 12]
+* C) Security Account Manager (SAM)[cite: 12]
+* D) Kernel Security Device Driver (KSecDD)[cite: 12]
+
+<details>
+<summary><b>🔍 Reveal Answer & Explanation</b></summary>
+<br>
+<b>Correct Answer: B) Security Reference Monitor (SRM)</b>[cite: 12]<br>
+<b>Explanation:</b> The <b>Security Reference Monitor (SRM)</b> is a kernel-mode component responsible for enforcing access validation and audit generation checks[cite: 12]. LSASS runs in user-mode to manage security tokens and policies, while the SAM database stores local user account hashes[cite: 12].
+</details>
+
+---
+
+### Question 2: Windows System Integrity Utilities
+**An administrator notices that several critical operating system files have been modified or corrupted on a Windows server. Which built-in command-line utility should be run first to scan and restore these protected system files?**[cite: 12]
+* A) `chkdsk`[cite: 12]
+* B) `DISM`[cite: 12]
+* C) `sfc /scannow`[cite: 12]
+* D) `Netsh`[cite: 12]
+
+<details>
+<summary><b>🔍 Reveal Answer & Explanation</b></summary>
+<br>
+<b>Correct Answer: C) sfc /scannow</b>[cite: 12]<br>
+<b>Explanation:</b> The <b>System File Checker (`SFC`)</b> scans and repairs corrupted Windows system files[cite: 12]. <b>DISM</b> (Deployment Image Servicing and Management) is used to service and repair the Windows system image itself, and `chkdsk` checks disk file system integrity[cite: 12].
+</details>
+
+---
+
+### Question 3: Active Directory Security
+**Which tool or solution automatically manages, resets, and rotates unique local administrator passwords across domain-joined Windows computers to prevent pass-the-hash attacks?**[cite: 12]
+* A) Microsoft Security Compliance Toolkit (SCT)[cite: 12]
+* B) Local Administrator Password Solution (LAPS)[cite: 12]
+* C) Just Enough Administration (JEA)[cite: 12]
+* D) Windows Defender Credential Guard[cite: 12]
+<details>
+<summary><b>🔍 Reveal Answer & Explanation</b></summary>
+<br>
+<b>Correct Answer: B) Local Administrator Password Solution (LAPS)</b>[cite: 12]<br>
+<b>Explanation:</b> <b>LAPS</b> provides automated management and rotation of unique local administrator account passwords on domain-joined systems[cite: 12]. <b>JEA</b> provides role-based PowerShell administrative access, and <b>SCT</b> is used for deploying security baseline configurations[cite: 12].
+</details>
+
+---
+
+### Question 4: PowerShell & Protocol Hardening
+**To secure Windows endpoints against protocol downgrade attacks and unauthorized script execution, which administrative measure should be implemented for PowerShell?**[cite: 12]
+* A) Enable PowerShell v2.0 and disable script logging[cite: 12]
+* B) Disable PowerShell v2.0, enforce Script Signing, and use ConstrainedLanguageMode[cite: 12]
+* C) Enable anonymous SID enumeration via PowerShell[cite: 12]
+* D) Switch all PowerShell endpoints to SMB 1.0 transport mode[cite: 12]
+
+<details>
+<summary><b>🔍 Reveal Answer & Explanation</b></summary>
+<br>
+<b>Correct Answer: B) Disable PowerShell v2.0, enforce Script Signing, and use ConstrainedLanguageMode</b>[cite: 12]<br>
+<b>Explanation:</b> Hardening PowerShell requires <b>disabling legacy PowerShell v2.0</b> (which lacks security controls and allows downgrade attacks), enforcing <b>Script Signing</b>, enabling logging, and implementing <b>ConstrainedLanguageMode</b>[cite: 12]. SMB 1.0 should always be disabled, not enabled[cite: 12].
+</details>
+
+---
+
+### Question 5: Remote Desktop & Network Services Hardening
+**An auditor recommends hardening Remote Desktop Protocol (RDP) connections across corporate Windows workstations. Which combination of settings directly supports this security requirement?**[cite: 12]
+* A) Disable Network Level Authentication (NLA) and open RDP port 3389 to all public IPs[cite: 12]
+* B) Enable Network Level Authentication (NLA), scope RDP firewall rules, and deploy RDP Gateways[cite: 12]
+* C) Rely solely on SMB 1.0 encryption for RDP traffic encapsulation[cite: 12]
+* D) Enable LAN Manager (LM) hash storage for RDP sessions[cite: 12]
+
+<details>
+<summary><b>🔍 Reveal Answer & Explanation</b></summary>
+<br>
+<b>Correct Answer: B) Enable Network Level Authentication (NLA), scope RDP firewall rules, and deploy RDP Gateways</b>[cite: 12]<br>
+<b>Explanation:</b> RDP hardening best practices include enabling <b>Network Level Authentication (NLA)</b> so users authenticate *before* a session is established, scoping firewall rules, and utilizing <b>RDP Gateways</b>[cite: 12]. LM hashes should be disabled, and SMB 1.0 is unrelated to RDP[cite: 12].
+</details>
